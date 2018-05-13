@@ -1,0 +1,15 @@
+std::cout << "/*"; LEGAL
+std::cout << "*/"; LEGAL
+std::cout << /* "*/" */; NOT LEGAL
+std::cout << /* "*/" /* "/*" */; LEGAL
+
+FIX
+#include<iostream>
+int main(){
+
+std::cout << "/*";
+std::cout << "*/";
+std::cout << /* "*/" */";
+std::cout << /* "*/" /* "/*" */;
+return 0;
+}
