@@ -1,0 +1,3 @@
+while is better when a condition is involved and for is better when you want to compute between a range of numbers.
+
+of course a condition can be added to for using the if else statements . But then why complciate stuff?
