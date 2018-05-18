@@ -1,0 +1,1 @@
+if all the values are equal then the counter value will keep on increasing and it will never print the value.
